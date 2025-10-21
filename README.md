@@ -9,7 +9,7 @@ start tool:	synthesis:
 			innovus -stylus
 			
 steps to run flows for mips:
-		synthesis:
-			source genus_mips.tcl
+		synthesis: 
+			source /syn/scripts/genus_mips.tcl
 		PNR:
-			source innov_stylus.tcl
+			source scripts/innov_stylus.tcl
